@@ -5,25 +5,24 @@ import "./styles.css";
 
 function App() {
 
-  const linkedInUrl = '#'; // Replace with your LinkedIn profile URL
-  const githubUrl = '#'; // Replace with your GitHub profile URL
+  const linkedInUrl = 'https://www.linkedin.com/in/jessieliang97/'; 
+  const githubUrl = 'https://github.com/jessieliang02'; 
 
   return (
     <div className="container">
       <div className="header">
-        Your Name
+        Buy Treats for S'more 
       </div>
       <ul className="navbar">
         <li className="nav-item">Home</li>
-        <li className="nav-item">Other Page</li>
+        <li className="nav-item">On-going Projects</li>
       </ul>
       <div className="main-content">
-        <h1>Your Name</h1>
+        <h1>Jessie Liang</h1>
         <p>
-          Bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-          venenatis commodo lectus, at pharetra ligula.
+          I am a junior software engineer looking for job opportunities...
         </p>
-        <p>Contact: your.email@example.com</p>
+        <p>Contact: jessieliang2015ca@gmail.com</p>
         <p>
           <a href={linkedInUrl} target="_blank" rel="noopener noreferrer">
             LinkedIn
@@ -35,7 +34,7 @@ function App() {
         </p>
         <button
           className="btn"
-          onClick={() => window.open('https://www.example.com', '_blank')}
+          onClick={() => window.open('', '_blank')}
         >
           Visit Example Website
         </button>

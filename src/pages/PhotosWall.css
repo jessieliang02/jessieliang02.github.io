@@ -1,0 +1,16 @@
+.photo-wall {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.photo-card {
+    width: 200px;
+    text-align: center;
+}
+
+.photo-card img {
+    width: 100%;
+    height: auto;
+}
